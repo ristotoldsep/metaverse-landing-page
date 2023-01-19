@@ -1,11 +1,11 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useState } from 'react';
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { navVariants } from "../utils/motion";
-import Menu from "./Menu";
+import styles from '../styles';
+import { navVariants } from '../utils/motion';
+import Menu from './Menu';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,15 +36,12 @@ const Navbar = () => {
             src="/menu.svg"
             alt="menu"
             className="w-[24px] h-[24px] object-contain cursor-pointer"
-            onClick={
-              () => setIsMenuOpen(!isMenuOpen)
-            }
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
           />
         </div>
       </motion.nav>
-      
-        <Menu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
-      
+
+      <Menu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
     </>
   );
 };
