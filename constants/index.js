@@ -1,3 +1,31 @@
+export const links = [
+  {
+    id: 1,
+    label: "Home",
+    href: "#home",
+  },
+  {
+    id: 2,
+    label: "About",
+    href: "#about",
+  },
+  {
+    id: 3,
+    label: "Explore",
+    href: "#explore",
+  },
+  {
+    id: 4,
+    label: "Services",
+    href: "#services",
+  },
+  {
+    id: 5,
+    label: "Contact",
+    href: "#contact",
+  },
+];
+
 export const exploreWorlds = [
   {
     id: 'world-1',
