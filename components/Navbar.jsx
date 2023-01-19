@@ -9,7 +9,6 @@ import Menu from "./Menu";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  //console.log(isMenuOpen);
 
   return (
     <>
@@ -43,9 +42,9 @@ const Navbar = () => {
           />
         </div>
       </motion.nav>
-      {isMenuOpen && (
+      
         <Menu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
-      )}
+      
     </>
   );
 };
