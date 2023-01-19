@@ -20,7 +20,7 @@ const Menu = ({ isOpen, onClose }) => (
         {links.map((link) => (
           <li
             key={link.id}
-            className="p-4 hover:translate-y-[-5px] transition-all duration-300 ease-in-out"
+            className="p-4 hover:translate-y-[-5px] transition-all duration-300 ease-in-out hover:underline"
           >
             <a href={link.href} onClick={onClose}>
               {link.label}
