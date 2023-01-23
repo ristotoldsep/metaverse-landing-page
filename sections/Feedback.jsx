@@ -48,7 +48,7 @@ const Feedback = () => (
           className="lg:block absolute lg:-left-[10%] lg:top-[3%] -left-[0%] top-[3%]"
         >
           <img
-            src="/stamp.png"
+            src="/stamp.webp"
             alt="stamp"
             className="w-[155px] h-[155px] object-contain"
           />
